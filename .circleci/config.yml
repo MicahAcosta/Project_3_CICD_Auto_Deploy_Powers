@@ -105,22 +105,46 @@ jobs:
              npm install
              npm run test
   
+  
+  
+  # scan-frontend:
+  #   docker:
+  #     - image: circleci/node:13.8.0
+      
+  #   steps:
+  #     # Checkout code from git
+  #     - checkout
+  #     # Restore from cache
+  #     - restore_cache:
+  #         keys: [frontend-build]
+          
+  #     - run:
+  #         name: Scan Frontend
+  #         command: |
+  #           cd frontend
+  #           npm install
+  #           npm audit fix --audit-level=critical
              
-#   scan-frontend:
-#     docker:
-#       # Docker image here
-#     steps:
-#       # Checkout code from git
-#       # Restore from cache
-#       # Your job code here
 
-#   scan-backend:
-#     docker:
-#       # Docker image here
-#     steps:
-#       # Checkout code from git
-#       # Restore from cache
-#       # Your job code here
+
+  # scan-backendtend:
+  #   docker:
+  #     - image: circleci/node:13.8.0
+      
+  #   steps:
+  #     # Checkout code from git
+  #     - checkout
+  #     # Restore from cache
+  #     - restore_cache:
+  #         keys: [backend-build]
+          
+  #     - run:
+  #         name: Scan Backend
+  #         command: |
+  #           cd backend
+  #           npm install
+  #           npm audit fix --audit-level=critical
+
 
 #   deploy-infrastructure:
 #     docker:
