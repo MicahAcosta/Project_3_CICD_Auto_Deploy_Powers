@@ -274,8 +274,8 @@ jobs:
           command: |
             # Your code here
             cd backend
-            #npm install
-            sudo npm install -g npm
+            sudo npm install
+            #sudo npm install -g npm
             npm run migrations > migrations_dump.txt
             cat migrations_dump.txt
 
