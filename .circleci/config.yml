@@ -228,6 +228,7 @@ jobs:
       # Checkout code from git
       - checkout
       # Add ssh keys with fingerprint
+      - add_ssh_keys:
          fingerprints:
             - "2c:0a:51:e5:29:85:85:3e:d9:48:a3:cf:31:47:25:be"
       # attach workspace
@@ -406,7 +407,7 @@ jobs:
   #           workflow_id: ${CIRCLE_WORKFLOW_ID:0:7}   
   
     #Smoke test
-  smoke-test:
+  #smoke-test:
     # docker:
     #   # Lightweight Docker image 
     #   - image: python:3.10-alpine3.16
