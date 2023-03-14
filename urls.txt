@@ -1,0 +1,9 @@
+[URL01]: Github repo 
+https://github.com/MicahAcosta/Project_3_CICD_Auto_Deploy_Powers
+
+
+[URL02]: Public URL for  S3 Bucket
+http://udapeople-864ec7b.s3-website-us-east-1.amazonaws.com 
+
+[URL03]: Public URL for CloudFront distribution (aka, blue production front-end)
+https://d2zfquer8ypmlg.cloudfront.net
