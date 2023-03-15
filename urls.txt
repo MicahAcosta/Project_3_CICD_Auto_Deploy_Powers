@@ -7,3 +7,10 @@ http://udapeople-864ec7b.s3-website-us-east-1.amazonaws.com
 
 [URL03]: Public URL for CloudFront distribution (aka, blue production front-end)
 https://d2zfquer8ypmlg.cloudfront.net
+
+[URL04]: back-end application
+http:34.203.77.58:3030/api/status
+
+
+[URL05]: Prometheus Server
+http://ec2-44-204-165-46.compute-1.amazonaws.com:9090/
